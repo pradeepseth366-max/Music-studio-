@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+venv/
+penv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build
+dist/
+build/
+.next/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Audio files
+*.mp3
+*.wav
+*.flac
+*.aac
+
+# Models
+/models/**
+!/models/.gitkeep
+
+# Temp
+/tmp/
+/temp/
